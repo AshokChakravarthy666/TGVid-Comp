@@ -13,8 +13,8 @@ class Config(object):
     FORCE_SUB) else None
    
     # database config
-    DB_URL  = os.environ.get("DB_URL", "")  # ⚠️ Required
-    DB_NAME  = os.environ.get("DB_NAME","") 
+    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://Tgbot:tgbot@cluster0.bz1f9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # ⚠️ Required
+    DB_NAME  = os.environ.get("DB_NAME","Tgbot") 
 
     # Other Configs 
     ADMIN = int(os.environ.get("ADMIN", "6650849235")) # ⚠️ Required
