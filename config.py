@@ -13,8 +13,8 @@ class Config(object):
     FORCE_SUB) else None
    
     # database config
-    DB_URL  = os.environ.get("DB_URL", "mongodb+srv://Auto:Auto@cluster0.xnmdjg4.mongodb.net/?retryWrites=true&w=majority")  # ⚠️ Required
-    DB_NAME  = os.environ.get("DB_NAME","SnowEncoderBot") 
+    DB_URL  = os.environ.get("DB_URL", "")  # ⚠️ Required
+    DB_NAME  = os.environ.get("DB_NAME","") 
 
     # Other Configs 
     ADMIN = int(os.environ.get("ADMIN", "6650849235")) # ⚠️ Required
